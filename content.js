@@ -1,4 +1,6 @@
 window.onload = function() {
-    var body = document.getElementsByClassName('header');
-    body[0].style.backgroundColor = '#000000';
+    var header = document.getElementsByClassName('header');
+    const divDom = document.createElement('div');
+    divDom.innerHTML = "テスト";
+    header.appendChild(divDom);
   };
